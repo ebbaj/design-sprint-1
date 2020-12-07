@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.image-wrapper {
+  width: 13rem;
+  height: 13rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
