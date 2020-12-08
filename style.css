@@ -33,14 +33,19 @@ body {
 
 .grid-wrapper {
   display: grid;
-  grid-template-rows: 10vh 1fr; /*10vh;*/
+  grid-template-rows: 1fr; /*10vh;*/
+  position: relative;
 }
 
 header {
   display: grid;
   grid-template-columns: 5% 1fr 1fr 1fr 1fr 1fr 5%;
-  background: var(--homepage-background);
+  background: none;
   color: var(--white);
+  z-index: 10;
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
 }
 
 .logo {
@@ -52,9 +57,9 @@ header {
 
 nav {
   justify-self: end;
+  grid-column: 4 / 7;
   align-self: center;
   z-index: 1;
-  grid-column: 4 / 7;
 }
 
 nav ul {
@@ -84,7 +89,7 @@ nav a:hover {
 #section-one {
   display: grid;
   grid-template-columns: 5% 1fr 1fr 1fr 1fr 1fr 5%;
-  height: 90vh;
+  height: 100vh;
   background: var(--homepage-background);
 }
 
@@ -104,7 +109,7 @@ nav a:hover {
 
 .home-right img {
   object-fit: cover;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   grid-column: 4 / span 4;
 }
@@ -169,6 +174,7 @@ nav a:hover {
   height: 80vh;
   width: 100%;
   padding: 2rem;
+  border-radius: 7%;
 }
 
 .about-right {
@@ -176,6 +182,11 @@ nav a:hover {
   align-self: center;
   justify-self: center;
   padding-left: 1rem;
+}
+
+.about-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .about-content h2 {
@@ -219,10 +230,16 @@ nav a:hover {
   height: 80vh;
   width: 100%;
   padding: 2rem;
+  border-radius: 7%;
 }
 
 .services-right {
   grid-column: 3 / 5;
+}
+
+.services-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .services-content h2 {
