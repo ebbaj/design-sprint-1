@@ -45,7 +45,7 @@
           </div>
         </section>
         <section id="section-two">
-          <div class="main-left">
+          <div class="about-left">
             <div class="image-wrapper">
               <img
                 src="./images/elders.jpg"
@@ -53,7 +53,7 @@
               />
             </div>
           </div>
-          <div class="main-right">
+          <div class="about-right">
             <div class="about-content">
               <h2>About Us</h2>
               <p>
@@ -65,9 +65,10 @@
               </p>
               <br />
               <p>
-                We often work with retired police dogs who are no longer active
-                officers but still know how to work the snout, and support dogs
-                who love to say hi at the elder homes, hospitals and day cares.
+                We often work with retired police dogs, trained search dogs, and
+                support dogs who love to say hi at the elder homes, hospitals
+                and day cares. Together we can make every day more fun for both
+                dog and human.
               </p>
               <br />
               <p>
@@ -80,37 +81,35 @@
                 to get some company during these lonely times.
               </p>
               <br />
-              <p>
-                Don’t forget! If you already have a furry friend you can enter
-                your dog and yourself in any of our classes.
-              </p>
             </div>
           </div>
         </section>
         <section id="section-three">
-          <div class="main-left">
+          <div class="services-left">
             <div class="services-content">
               <h2>Our Services</h2>
               <h3>A dog to keep you company</h3>
               <p>
                 Many have been alone during Covid-19, but there is no better
                 company than a dog. We will connect you to Hundstallet to find a
-                temporary friend for these hard times. Read more
+                temporary friend for these hard times. <a href="#">Read more</a>
               </p>
+              <br />
               <h3>Specialized service</h3>
               <p>
                 Rent a dog who's been trained within a specialized area, e.g.
-                search dogs and support dogs. Read more
+                search dogs and support dogs. <a href="#">Read more</a>
               </p>
+              <br />
               <h3>Courses and events</h3>
               <p>
                 Our specialists offer courses within nose work and support dog
                 training for you and your furry friend. You can also hire our
-                truffle dogs for events. Read more
+                truffle dogs for events. <a href="#">Read more</a>
               </p>
             </div>
           </div>
-          <div class="main-right">
+          <div class="services-right">
             <div class="image-wrapper">
               <img
                 src="./images/truffle.jpg"
@@ -120,46 +119,48 @@
           </div>
         </section>
         <section id="section-four">
-          <h2>Contact</h2>
-          <p>
-            If you wish to rent a dog or have any questions, feel free contact
-            us via <a href="mailto: ebba.jonsson@hyperisland.se">email</a>, or
-            visit our <a href="#">Instagram</a>. You can also fill in this form
-            to take part in any of our services. We will get back to you as soon
-            as possible with more details.
-          </p>
-          <form>
-            <label for="fname">First name:</label><br />
-            <input type="text" id="fname" name="fname" /><br />
-            <label for="lname">Last name:</label><br />
-            <input type="text" id="lname" name="lname" /><br />
-            <label for="email">Email:</label><br />
-            <input type="text" id="email" name="email" /><br />
-
-            <label for="experience"
-              >How much experience have you had with dogs before?</label
-            >
-            <select id="experience" name="experience">
-              <option value="none">None</option>
-              <option value="some">Some</option>
-              <option value="a lot">A lot</option>
-            </select>
-            <br />
-            <label for="services"
-              >Which of our services are you interested in?</label
-            >
-            <select id="services" name="services">
-              <option value="A dog for company">A dog for company</option>
-              <option value="Specialized service">Specialized service</option>
-              <option value="Courses and events">Courses and events</option>
-            </select>
-            <br />
-
-            <textarea name="message" rows="5" cols="30">
+          <div class="contact-left">
+            <h2>Contact</h2>
+            <p>
+              If you wish to rent a dog or have any questions, feel free to
+              contact us via
+              <a href="mailto: ebba.jonsson@hyperisland.se">email</a>, or visit
+              our <a href="#">Instagram</a>. You can also fill in this form to
+              take part in any of our services. We will get back to you as soon
+              as possible with more details.
+            </p>
+          </div>
+          <div class="contact-right">
+            <form>
+              <label for="name">Name:</label><br />
+              <input type="text" id="name" name="name" /><br />
+              <label for="email">Email:</label><br />
+              <input type="text" id="email" name="email" /><br />
+              <!--
+              <label for="experience">Enter amount of dog experience</label>
+              <select id="experience" name="experience">
+                <option value="none">None</option>
+                <option value="some">Some</option>
+                <option value="a lot">A lot</option>
+              </select>
+              <br />
+              <label for="services">Choose a service</label>
+              <select id="services" name="services">
+                <option value="A dog for company">A dog for company</option>
+                <option value="Specialized service">Specialized service</option>
+                <option value="Courses and events">Courses and events</option>
+              </select>
+              <br />
+-->
+              <textarea name="message" rows="5" cols="30">
 Optional message.</textarea
-            ><br />
-            <input type="submit" value="Submit" />
-          </form>
+              ><br />
+              <!-- <input type="submit" value="Submit" id="submit-button" /> -->
+              <a href="#section-one"
+                ><button id="submit-button">Submit</button></a
+              >
+            </form>
+          </div>
         </section>
       </main>
 
