@@ -6,7 +6,7 @@ Hyper Island - Design for the user module - Brief 1
 Design and create a website based on your fictional passion company.
 
 ### Time Span
-1,5 days
+24 hrs
 
 ### Goals
 Practice ideation, design, development and delivery within a limited timeframe.
