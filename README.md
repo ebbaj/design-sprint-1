@@ -1,6 +1,6 @@
 # Design Sprint 1 - Rent a Friend
 
-Hyper Island - Design for the user module - brief 1
+Hyper Island - Design for the user module - Brief 1
 
 ### Brief
 Design and create a website based on your fictional passion company.
