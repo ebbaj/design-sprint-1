@@ -20,4 +20,4 @@ Practice ideation, design, development and delivery within a limited timeframe.
 - CSS
 - Vanilla Javascript
 
-[Rent a Friend]('https://ebbaj.github.io/design-sprint-1/')
+[Rent a Friend](https://ebbaj.github.io/design-sprint-1/)
